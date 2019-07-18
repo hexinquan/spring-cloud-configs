@@ -1,1 +1,8 @@
-
+    
+lable: boot-config-dev
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://lcdb?useSSL=true
+    password: 123456
+    username: root
